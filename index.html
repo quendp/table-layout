@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+        For this project, I used a 20-column layout that will serve as a grid-like system to arrange my elements on.
+        Page width: 100% (80% for content)
+        Row height: 50px (min)
+
+        Note to checker: Sorry for the bad semantic structure because of lack of time.
+     -->
+    <table>
+        <tr class="header-top" id="hero-section"> <!-- Sets a fixed table width-->
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr class="nav-menu">
+            <td colspan="2"></td>
+            <td colspan="1">
+                <a href="#hero-section">
+                    <img src="sources/logo.png" alt="Quen Del Pilar Logo" width="100px" height="auto">
+                </a>
+            </td>
+            <td colspan="3"></td>
+            <td colspan="8">
+                <nav>
+                    <ul>
+                        <li><a href="#hero-section">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#sign-up">Sign Up</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </td>
+            <td colspan="2"></td>
+            <td colspan="2">
+                <p style="text-align:right;"><a href="https://www.youtube.com/watch?v=BnKVgfXgNNU">Welcome!</a></p>
+            </td>
+            <td colspan="2"></td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr> <!-- Hero Section-->
+            <td colspan="2"></td>
+            <td colspan="7">
+                <h1>
+                    Let us build an HTML website using tables!
+                </h1>
+                <br>
+                <p>
+                    Experimenting with HTML layouts is very fun! And of course, it wouldn't be complete if we do not try it out using tables. Join me in this adventure by signing up to this bootcamp!
+                </p>
+                <br>
+                <a href="https://kodego.ph" target="_blank">
+                    <button class="btn-sign-up">Sign Up</button>
+                </a>
+            </td>
+            <td></td>
+            <td colspan="8">
+                <img src="sources/hero-section-illustration-edited.png" alt="Illustration of people working together to build a website" title="Image from restock.com https://www.reshot.com/free-vector-illustrations/item/website-development-5QS97CJH2A/" width="100%">
+            </td>
+            <td colspan="2"></td>
+        </tr>
+        <tr></tr>
+        <tr id="about"></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>    <!-- About Section-->
+            <td colspan="8"></td>
+            <td colspan="10" rowspan="3" class="about-section">
+                <h2>
+                    About
+                </h2>
+                <br>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hi!👋 I am Quen Del Pilar, an aspiring full-stack web developer. I created this website as a requirement for bootcamp and I am  really excited to share you my work.❤️❤️ 
+                </p>
+                <br>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My first approach on this activity was to set a fixed width for the entire table at 1200px and divide it into 12 columns of equal widths. However, as a lover of large monitors, 1200px seems too empty so I decided to use 100% width and divided it into 20 tiny columns.😂
+                </p>
+                <br>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As stated, this is site is just a big table made up of rows and columns. It is also important to note that this is a not so responsive website so, if you are viewing this from a mobile phone, sorry✌️. Nonetheless, I hope you'll like my work! As a gift here's a lucky cat😺 from restock.⬅️
+                </p>
+
+            </td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>    <!-- About Section-->
+            <td colspan="2"></td>
+            <td colspan="5"> 
+                <img src="sources/about-section-illustration-edited.png" alt="Illustration of a cat with stethoscope" title="Illustration from https://www.reshot.com/free-vector-illustrations/item/cute-doctor-cat-CWML9XAHQP/" width="100%" height="auto">
+            </td>
+            <td></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr id="sign-up"></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr class="dark-bg">
+            <td colspan="20"></td>
+        </tr>
+        <tr class="dark-bg"> <!-- Sign Up Section-->
+            <td colspan="5">
+            </td>
+            <td colspan="10" rowspan="3">
+                <h2>
+                    Join us now!
+                </h2>
+                <br>
+                <p>
+                    Sign up to our bootcamp and secure a career in the tech industry. It doesn’t matter if you're a beginner or a career shifter. Train remotely with this bootcamp and they'll match you to a company that can jumpstart your tech career.
+                </p>
+                <br><br>
+                <a href="https://kodego.ph" target="_blank">
+                    <button class="btn-sign-up">Sign Up</button>
+                </a>
+            </td>
+            <td colspan="5">
+            </td>
+        </tr>
+        <tr class="dark-bg">
+            <td colspan="20"></td>
+        </tr>
+        <tr class="dark-bg">
+            <td colspan="20"></td>
+        </tr>
+        <tr class="dark-bg">
+            <td colspan="20"></td>
+        </tr>
+        <tr id="contact"></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="6">
+                <h2>
+                    Do you have an idea in mind? Let us talk about it.
+                </h2>
+                <br>
+                <p>Contact me using my social media accounts.</p>
+                <br>
+            </td>
+            <td colspan="10" style="text-align: right;">
+                <a href="https://www.facebook.com/itsquendp/">
+                    <button class="contact-btn">Facebook</button>
+                </a>
+                <a href="https://www.instagram.com/quen.dp/">
+                    <button class="contact-btn">Instagram</button>
+                </a>
+                <a href="mailto:hello@quendp.com">
+                    <button class="contact-btn">Email</button>
+                </a>
+                <a href="https://github.com/quendp">
+                    <button class="contact-btn">Github</button>
+                </a>
+            </td>
+            <td colspan="2"></td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td colspan="20" style="text-align:center;">
+                <p>Made by: Quen Del Pilar | November 11, 2022</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

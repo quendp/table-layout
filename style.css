@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/* Uncomment code below to view table borders */
+/* th, tr, td {
+    border: 1px solid black;
+} */
+
+/* Initial Styling */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+tr {
+    height: 50px;
+}
+.header-top {
+    height: 10px;
+}
+
+/* Header - Row 2 */
+.nav-menu {
+    text-align: center;
+    position: sticky;
+    top: 10px;
+}
+nav {
+    background: rgb(230, 226, 226);
+    border-radius: 20px;
+    padding: 10px 0;
+    min-width: 300px;
+}
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+@media only screen and (max-width: 1100px) {
+    nav li {
+      margin: 0 5px;
+    }
+  }
+a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: blue;
+}
+
+/* Hero Section */
+h1 {
+    font-size: 3rem;
+    line-height: 2.7rem;
+}
+.btn-sign-up {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    background: rgb(96, 85, 241);
+    color: aliceblue;
+}
+.btn-sign-up:hover {
+    background: rgb(15, 15, 228);
+}
+
+/* About Section */
+h2 {
+    font-size: 2rem;
+}
+.about-section {
+    background:  rgb(230, 226, 226);
+    border-radius: 30px;
+    padding: 0px 80px;
+}
+@media only screen and (max-width: 600px) {
+    .about-section{
+        padding: 20px 30px;
+    }
+  }
+.about-section h2 {
+    text-align: center;
+}
+
+/* Sign Up Section */
+.dark-bg {
+    background-color: rgb(29, 28, 28);
+}
+.dark-bg * {
+    color:aliceblue;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact-btn {
+    min-width: 150px;
+    padding: 10px 0;
+    margin: 0 10px;
+}
