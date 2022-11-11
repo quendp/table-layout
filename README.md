@@ -8,4 +8,4 @@ My approach on this one (as discussed on its about section) is that I used 100% 
 
 The downside of this project is that it does not look good on mobile devices. However, that is not a part of this activity so (this is supposed to be a quick one) so I did not make it to be as responsive as possible.
 
-[View live website] (https://quendp.github.io/table-layout/)
+[View live website](https://quendp.github.io/table-layout/)
